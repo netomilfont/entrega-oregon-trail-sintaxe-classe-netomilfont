@@ -12,10 +12,10 @@ class Traveler {
 
     eat() {
         if(this.food > 0) {
-            return this.food -= 1
+             this.food -= 1
 
         } else if(this.food == 0) {
-            return this.isHealthy = false
+             this.isHealthy = false
         }
     }
 }

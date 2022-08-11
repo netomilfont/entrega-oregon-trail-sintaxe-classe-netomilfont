@@ -20,3 +20,5 @@ juan.eat(); // juan agora está com fome (doente)
  
 console.log(`${wagon.shouldQuarantine()} should be true since juan is sick`);
 console.log(`${wagon.totalFood()} should be 3`);
+
+console.log(wagon.passengers)

@@ -28,14 +28,9 @@ class Wagon {
     
     shouldQuarantine() {
         
-        const haveSick = this.passengers.includes(element => element.isHealthy == false)
-        if(haveSick !== -1) {
+        const haveSick = this.passengers.some(element => element.isHealthy == false)
 
-            return true
-        } else {
-
-            return false
-        }
+        return haveSick
     }
 
     totalFood() {
